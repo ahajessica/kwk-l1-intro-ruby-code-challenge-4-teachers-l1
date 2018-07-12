@@ -4,7 +4,7 @@ def least_coins(cents)
 #Code your answer here!
 coins = {:quarters => 0, :dimes => 0, :nickeles => 0, :pennies => 0} 
 
-while cents >=0.25
+if cents >=0.25
 	quarters = cents / 0.25
 	coins[:quarters] = quarters
 	cents = cents % 0.25
