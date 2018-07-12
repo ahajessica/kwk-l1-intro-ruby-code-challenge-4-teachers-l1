@@ -12,6 +12,7 @@ end
 
 if cents  >= 0.10
 	dimes = cents // 0.10
+	coins[:dimes]
 	cents = cents % 0.10
 end 
 
