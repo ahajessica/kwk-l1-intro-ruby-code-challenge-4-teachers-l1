@@ -7,7 +7,7 @@ coins = {:quarters => 0, :dimes => 0, :nickeles => 0, :pennies => 0}
 if cents >= 0.25
 	quarters = cents / 0.25
 	coins[:quarters] = quarters.to_i 
-	cents.to_f = cents % 0.25
+	cents.to_i = cents % 0.25
 
 elsif cents  >= 0.10
 	dimes = cents / 0.10
