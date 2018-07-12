@@ -24,6 +24,8 @@ end
 if cents >= 0.01
 	pennies = cents // 0.01
 	cents = cents % 0.01
-end 
 end
-puts least_coins(30)
+return coins 
+end
+
+puts least_coins(29)
