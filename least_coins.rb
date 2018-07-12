@@ -12,17 +12,19 @@ end
 
 if cents  >= 0.10
 	dimes = cents / 0.10
-	coins[:dimes]
+	coins[:dimes] = dimes 
 	cents = cents % 0.10
 end 
 
 if cents >= 0.05
 	nickeles = cents / 0.05
+	coins[:nickeles] = nickeles
 	cents = cents % 0.05
 end 
 
 if cents >= 0.01
 	pennies = cents / 0.01
+	coins[:pennies] = pennies
 	cents = cents % 0.01
 end
 return coins 
