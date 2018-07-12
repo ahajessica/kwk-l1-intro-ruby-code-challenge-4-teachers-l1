@@ -25,4 +25,4 @@ if cents >= 0.01
 	cents = cents % 0.01
 end 
 end
-puts coins(30)
+puts least_coins(30)
