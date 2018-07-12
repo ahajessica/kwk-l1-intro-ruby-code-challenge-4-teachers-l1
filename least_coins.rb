@@ -9,7 +9,7 @@ if cents >=0.25
 	coins[:quarters] = quarters
 	cents = cents % 0.25
 
-else cents  >= 0.10
+elsif cents  >= 0.10
 	dimes = cents / 0.10
 	coins[:dimes] = dimes 
 	cents = cents % 0.10
