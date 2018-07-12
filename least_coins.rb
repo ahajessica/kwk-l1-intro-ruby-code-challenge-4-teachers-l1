@@ -22,7 +22,7 @@ elsif cents >= 0.05
 elsif cents >= 0.01
 	pennies = cents / 0.01
 	coins[:pennies] = pennies.to_i
-	cents = cents % 0.01
+	cents = cents 
 end
 return coins 
 end
