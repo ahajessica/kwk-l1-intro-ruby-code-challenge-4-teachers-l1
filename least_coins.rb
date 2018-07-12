@@ -14,12 +14,12 @@ elsif cents  >= 0.10
 	coins[:dimes] = dimes 
 	cents = cents % 0.10
  
-else cents >= 0.05
+elsif cents >= 0.05
 	nickeles = cents / 0.05
 	coins[:nickeles] = nickeles
 	cents = cents % 0.05
 
-else cents >= 0.01
+elsif cents >= 0.01
 	pennies = cents / 0.01
 	coins[:pennies] = pennies
 	cents = cents % 0.01
