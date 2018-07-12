@@ -24,4 +24,5 @@ if cents >= 0.01
 	pennies = cents // 0.01
 	cents = cents % 0.01
 end 
+puts coins
 end
