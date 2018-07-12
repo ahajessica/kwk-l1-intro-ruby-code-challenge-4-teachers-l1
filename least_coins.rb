@@ -8,13 +8,13 @@ if cents >= 0.25
 	quarters = cents / 0.25
 	coins[:quarters] = quarters.to_i
 	cents = cents % 0.25
-elsif
- cents  >= 0.10
+
+elsif cents  >= 0.10
 	dimes = cents / 0.10
 	coins[:dimes] = dimes.to_i 
 	cents = cents % 0.10
- el
- cents >= 0.05
+ 
+elsif cents >= 0.05
 	nickeles = cents / 0.05
 	coins[:nickeles] = nickeles.to_i
 	cents = cents % 0.05
